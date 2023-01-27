@@ -1,3 +1,9 @@
+#TEHTÄVÄNANTO
+#Toteuta testi, jossa syötteenä on n-kokoinen lista lukuja ja halutaan laskea listan n/10 pienimmän alkion summa.
+#Toteuta ensin algoritmi 1, joka järjestää listan ja laskee sitten n/10 ensimmäisen luvun summan.
+#Toteuta sitten algoritmi 2, joka lisää ensin luvut kekoon ja hakee sieltä sitten summaan n/10 pienintä lukua.
+#Toteuta testi niin, että n=106 ja jokainen luku on arvottu satunnaisesti väliltä 1…109.
+
 from heapq import heappush, heappop
 import time
 import random
