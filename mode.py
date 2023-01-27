@@ -1,3 +1,9 @@
+#TEHTÄVÄNANTO
+#Sinulle annetaan lukuja yksi kerrallaan. Tehtäväsi on kertoa jokaisen luvun kohdalla, mikä on siihen mennessä annettujen lukujen moodi (eli yleisin luku).
+#Jos moodeja on useita, niistä valitaan pienin mahdollinen.
+#Voit olettaa, että jokainen luku on kokonaisluku välillä 1…109 ja lukuja annetaan enintään 105.
+#Toteuta tiedostoon mode.py luokka Mode, jonka funktio add lisää uuden luvun ja palauttaa lisättyjen lukujen moodin.
+
 class Mode:
     def __init__(self):
         self.lista = {}
