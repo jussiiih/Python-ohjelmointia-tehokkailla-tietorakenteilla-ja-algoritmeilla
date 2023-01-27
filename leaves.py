@@ -1,3 +1,8 @@
+#TEHTÄVÄNANTO
+#Tehtäväsi on laskea, montako lehteä on annetussa binääripuussa. Voit olettaa, että puussa on enintään 100 solmua.
+#Tehtäväpohjassa on esimerkkinä seuraava puu, jossa on kaksi lehteä:
+#Toteuta tiedostoon leaves.py funktio count, joka palauttaa lehtien määrän.
+
 from collections import namedtuple
 
 def count(node):
