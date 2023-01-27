@@ -1,3 +1,7 @@
+#TEHTÄVÄNANTO
+#Toteuta kurssikirjan luvussa 3.1.1 kuvattu lisäysjärjestäminen Pythonilla. Mittaa algoritmin suoritusaika, kun n=105 ja syöte sisältää satunnaisessa järjestyksessä luvut 1,2,…,n.
+#Varmista, että algoritmin suorituksen jälkeen syöte on tosiaan järjestyksessä, mutta älä ota tätä mukaan suoritusajan mittaukseen.
+
 import random
 import time
 
