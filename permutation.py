@@ -1,3 +1,8 @@
+#TEHTÄVÄNANTO
+#Tehtäväsi on järjestää luvut 1…n siten, että kaikkien vierekkäisten lukuparien summat ovat erisuuria. Voit antaa minkä tahansa kelvollisen ratkaisun.
+#Voit olettaa, että n on välillä 1…100.
+#Toteuta tiedostoon permutation.py funktio create, joka palauttaa listan luvuista 1…n, jossa kaikkien vierekkäisten lukuparien summat ovat erisuuria.
+
 def create(n):
     lista = []
     while n > 0:
