@@ -1,3 +1,9 @@
+#TEHTÄVÄNANTO
+#Sinulle annetaan lukuja yksi kerrallaan. Tehtäväsi on kertoa jokaisen luvun kohdalla, mikä on siihen mennessä annettujen
+#lukujen mex-luku eli pienin puuttuva epänegatiivinen luku.
+#Voit olettaa, että jokainen luku on kokonaisluku välillä 0…109 ja lukuja annetaan enintään 105.
+#Toteuta tiedostoon mex.py luokka Mex, jonka funktio add lisää uuden luvun ja palauttaa lisättyjen lukujen mex-luvun.
+
 class Mex:
     def __init__(self):
         self.joukko = set()
