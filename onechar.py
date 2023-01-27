@@ -1,3 +1,15 @@
+#TEHTÄVÄNANTO
+#Tehtäväsi on laskea, monessako merkkijonon osajonossa jokainen merkki on sama. Esimerkiksi merkkijonossa abbbcaa tällaiset osajonot ovat
+#a (kolmesti)
+#aa
+#b (kolmesti)
+#bb (kahdesti)
+#bbb
+#c
+#eli yhteensä 11 osajonoa.
+#Voit olettaa, että merkkijono muodostuu merkeistä a–z ja siinä on enintään 105 merkkiä. Tavoitteena on, että algoritmin aikavaativuus on O(n).
+#Toteuta tiedostoon onechar.py funktio count, joka palauttaa halutun tuloksen.
+
 def count(s):
     pituus=1
     laskuri = 0
