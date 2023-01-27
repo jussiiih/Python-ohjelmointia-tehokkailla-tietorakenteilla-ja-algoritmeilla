@@ -1,18 +1,27 @@
-from collections import deque
+#TEHTÄVÄNANTO
+#Aluksi listan sisältö on [1,2,3,...,n]. Joka askeleella otat listan kaksi ensimmäistä alkiota ja siirrät ne listan loppuun käänteisessä järjestyksessä.
+#Mikä on listan ensimmäinen alkio k askeleen jälkeen?
+#Esimerkiksi kun n=4 ja k=3, lista muuttuu näin:
+#[1,2,3,4]→[3,4,2,1]→[2,1,4,3]→[4,3,1,2]
+#Tässä tapauksessa listan ensimmäinen alkio on siis 4.
+#Voit olettaa, että n on välillä 2…105 ja k on enintään 105. Tavoitteena on, että algoritmin aikavaativuus on O(n+k).
+#Toteuta tiedostoon fliptwo.py funktio solve, joka palauttaa ensimmäisen alkion k askeleen jälkeen.
 
+from collections import deque
+ 
 def solve(n,k):
     lista = deque()
     for i in range (1, n+1):
         lista.append(i)
-
+ 
     for i in range (0, k):
         otettu1 = lista.popleft()
         otettu2 = lista.popleft()
         lista.append(otettu2)
         lista.append(otettu1)
     return lista[0]
-
-
+ 
+ 
 if __name__ == "__main__":
     print(solve(4,3)) # 4
     print(solve(12,5)) # 11
