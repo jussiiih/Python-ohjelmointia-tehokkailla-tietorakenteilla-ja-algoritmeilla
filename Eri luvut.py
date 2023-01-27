@@ -1,3 +1,9 @@
+#TEHTÄVÄNANTO
+#Toteuta testi, jossa syötteenä on n-kokoinen lista lukuja ja halutaan laskea, montako eri lukua listalla on.
+#Toteuta ensin algoritmi 1, joka järjestää listan luvut ja laskee eri lukujen määrän tutkimalla vierekkäisiä lukuja.
+#Toteuta sitten algoritmi 2, joka laskee eri lukujen määrän laittamalla luvut hajautustauluun.
+#Toteuta testi niin, että n=106 ja jokainen luku on arvottu satunnaisesti väliltä 1…109.
+
 import time
 import random
 
