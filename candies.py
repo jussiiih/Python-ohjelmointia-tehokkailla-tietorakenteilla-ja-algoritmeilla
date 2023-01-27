@@ -1,3 +1,8 @@
+#TEHTÄVÄNANTO
+#Kaupassa on myytävänä n karkkia, joilla jokaisella on tietty hinta. Montako karkkia voit ostaa enintään, kun sinulla on rahaa x?
+#Karkkien määrä on enintään 105, ja jokaisen karkin hinta ja x on välillä 1…109. Tavoitteena on, että algoritmin aikavaativuus on O(n) tai O(nlogn).
+#Toteuta tiedostoon candies.py funktio solve, joka ilmoittaa, montako karkkia voit ostaa enintään.
+
 def solve(prices, x):
     prices.sort()
     laskuri = 0
