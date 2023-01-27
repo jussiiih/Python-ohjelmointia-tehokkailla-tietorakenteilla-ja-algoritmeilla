@@ -1,3 +1,7 @@
+#TEHTÄVÄNANTO
+#Toteuta kurssikirjan luvussa 2.1.4 kuvattu tehokkuustesti omalla koneellasi. Toteuta algoritmit Pythonilla ja mittaa niiden suoritusaika, kun n=105.
+#Käytä testissä satunnaista syötettä, jossa jokaisessa kohdassa merkin 0 ja 1 todennäköisyys tulla valituksi on yhtä suuri.
+
 import time
 import random
 
