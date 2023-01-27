@@ -1,3 +1,8 @@
+#TEHTÄVÄNANTO
+#Annettuna on lista lukuja ja tehtäväsi on selvittää, montako lukua listalta voidaan valita siten, että minkään kahden valitun luvun erotus ei ole suurempi kuin x.
+#Voit olettaa, että listalla on enintään 105 lukua ja x ja jokainen listan luku on väliltä 0…109. Tavoitteena on, että algoritmin aikavaativuus on O(n)tai O(nlogn).
+#Toteuta tiedostoon bigset.py funktio find, joka ilmoittaa montako lukua listalta voidaan enintään valita.
+
 def find(t, x):
     t.sort()
     maksimi = 1
