@@ -1,3 +1,8 @@
+#TEHTÄVÄNANTO
+#Sinulle annetaan kaksi listaa A ja B, joissa molemmissa on lukujen 1…n jokin permutaatio (eli molemmat listat sisältävät luvut 1…n jossain järjestyksessä).
+#Tehtäväsi on laskea, moniko luvuista 1…n esiintyy aiemmin listalla A kuin listalla B. Tavoitteena on, että algoritmin aikavaativuus on O(n)
+#Toteuta tiedostoon permutations.py funktio count, joka palauttaa halutun tuloksen.
+
 def count(a, b):
     laskuri = 0
     sanakirjaa ={}
