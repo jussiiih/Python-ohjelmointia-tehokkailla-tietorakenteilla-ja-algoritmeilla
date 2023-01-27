@@ -1,3 +1,9 @@
+#TEHTÄVÄNANTO
+#Tehtäväsi on selvittää, kuinka pitkä on lyhin merkkijono, jota toistamalla voidaan muodostaa annettu merkkijono.
+#Esimerkiksi kun merkkijono on abcabcabcabc, lyhin toistettava merkkijono on abc.
+#Merkkijono muodostuu merkeistä a–z ja siinä on enintään 100 merkkiä.
+#Toteuta tiedostoon repeat.py funktio find, joka antaa toistettavan merkkijonon pituuden.
+
 def find(s):
     pituus = len(s)
     indeksi = 0
