@@ -1,3 +1,9 @@
+#TEHTÄVÄNANTO
+#Tehtäväsi on laskea, moniko merkkijonon osajono ei sisällä kiellettyä merkkiä. Syötteenä sinulle annetaan merkkijono ja merkki, jota osajonot eivät saa sisältää.
+#Voit olettaa, että merkkijono muodostuu merkeistä a–z, siinä on enintään 105 merkkiä ja kielletty merkki on jokin merkeistä a–z.
+#Tavoitteena on, että algoritmin aikavaativuus on O(n).
+#Toteuta tiedostoon forbidden.py funktio count, joka palauttaa halutun tuloksen.
+
 def count(s, c):
     pituus = 0
     laskuri = 0
