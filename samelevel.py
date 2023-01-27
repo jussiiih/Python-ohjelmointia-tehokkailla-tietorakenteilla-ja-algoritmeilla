@@ -1,3 +1,13 @@
+#TEHTÄVÄNANTO
+#Tehtäväsi on laskea, montako solmua on annetussa binääripuussa tietyllä tasolla. Puun juuri on tasolla 1, sen lapset ovat tasolla 2, jne.
+#Voit olettaa, että puussa on enintään 100 solmua.
+#Tehtäväpohjassa on esimerkkinä seuraava puu:
+#Tässä tasolla 1
+#on yksi solmu, tasolla 2
+#on yksi solmu, tasolla 3
+#on kaksi solmua ja muilla tasoilla ei ole mitään.
+#Toteuta tiedostoon samelevel.py funktio count, joka palauttaa solmujen määrän.
+
 from collections import namedtuple
 
 
