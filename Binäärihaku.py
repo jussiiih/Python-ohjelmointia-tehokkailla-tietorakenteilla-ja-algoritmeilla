@@ -1,3 +1,9 @@
+#TEHTÄVÄNANTO
+#Toteuta kurssikirjan luvun 6.2 mukainen binäärihakupuu, jossa pystyy lisäämään alkion puuhun sekä laskemaan puun korkeuden. Jos puuhun lisättäisiin alkiot 1,2,…,n
+#pienimmästä suurimpaan, puun korkeudeksi tulisi n−1. Entä jos alkiot lisätäänkin satunnaisessa järjestyksessä?
+#Toteuta testi, jossa n=105 ja alkiot 1,2,…,n lisätään satunnaisessa järjestyksessä. Mikä on puun korkeus kaikkien lisäysten jälkeen?
+#Voit tallentaa jokaisen solmun Node-luokan oliona, jossa on viittaus vasempaan ja oikeaan lapseen sekä solmussa oleva arvo.
+
 from collections import namedtuple
 import random
 
