@@ -1,3 +1,9 @@
+#TEHTÄVÄNANTO
+#Annettuna on lista kokonaislukuja, jotka kaikki ovat väliltä 1…k. Listalle halutaan lisätä uusi kokonaisluku väliltä 1…k,
+#jonka etäisyys lähimpään listalla jo valmiiksi olevaan lukuun on mahdollisimman suuri. Kuinka suuri tuo etäisyys voi korkeintaan olla?
+#Voit olettaa, että listalla on korkeintaan 105 lukua ja k on korkeintaan 109. Tavoitteena on, että algoritmin aikavaativuus on O(n)tai O(nlogn).
+#Toteuta tiedostoon distance.py funktio find, joka ilmoittaa suurimman mahdollisen etäisyyden.
+
 def find(t, k):
     t.sort()
     maksimi = 0
