@@ -1,3 +1,9 @@
+#TEHTÄVÄNANTO
+#Annettuna on lista, josta tulee poimia mahdollisimman monta lukua. Ensimmäinen luku saa olla mikä tahansa listan luku
+#ja tämän jälkeen seuraavan poimitun luvun tulee olla tasan yhden suurempi kuin edellinen. Kuinka monta lukua voidaan näin korkeintaan poimia?
+#Voit olettaa, että listalla on enintään 105 lukua ja että jokainen luku on väliltä 1…109. Tavoitteena on, että algoritmin aikavaativuus on O(n)tai O(nlogn).
+#Toteuta tiedostoon interval.py funktio count, joka ilmoittaa, montako lukua listalta voidaan enintään poimia halutulla tavalla.
+
 def count(t):
     t.sort()
     t = list(dict.fromkeys(t))
